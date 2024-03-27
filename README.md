@@ -14,7 +14,7 @@
 
 ```
 {
-  "files.eol": "\n",
+   "files.eol": "\n",
 
   // Theme
   "workbench.iconTheme": "material-icon-theme",
@@ -42,9 +42,6 @@
     "height": 28,
     "fontSize": 12
   },
-
-  // Misc
-  "editor.formatOnSave": true,
   "editor.linkedEditing": true,
   "breadcrumbs.filePath": "off",
   "editor.fontLigatures": true,
@@ -64,6 +61,12 @@
   "editor.language.colorizedBracketPairs": [],
   "git.openRepositoryInParentFolders": "never",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "security.workspace.trust.untrustedFiles": "open"
+  "security.workspace.trust.untrustedFiles": "open",
+  "[csharp]": {
+    "editor.defaultFormatter": "csharpier.csharpier-vscode"
+  },
+  "editor.formatOnSave": true,
+  "editor.stickyScroll.enabled": false,
+  "breadcrumbs.enabled": false
 }
 ```
