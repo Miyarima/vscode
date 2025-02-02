@@ -10,7 +10,6 @@
 - Rainbow CSV
 - vscode-pigments
 - Tailwind CSS IntelliSense
-- Material Icon Theme
 
 ## settings.json
 
