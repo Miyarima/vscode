@@ -9,26 +9,27 @@
 - Prettier
 - Rainbow CSV
 - vscode-pigments
+- Tailwind CSS IntelliSense
+- Material Icon Theme
 
 ## settings.json
 
 ```
 {
-   "files.eol": "\n",
+  "files.eol": "\n",
 
   // Theme
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "Bearded Theme Vivid Black",
 
   // Font
-  "editor.fontFamily": "jetBrains Mono",
-  "scm.inputFontFamily": "jetBrains Mono",
-  "terminal.integrated.fontFamily": "jetBrains Mono",
-  "chat.editor.fontFamily": "jetBrains Mono",
-  "debug.console.fontFamily": "jetBrains Mono",
-  "notebook.output.fontFamily": "jetBrains Mono",
-  "markdown.preview.fontFamily": "jetBrains Mono",
-  "editor.inlayHints.fontFamily": "jetBrains Mono",
+  "editor.fontFamily": "JetBrainsMono NFM",
+  "scm.inputFontFamily": "JetBrainsMono NFM",
+  "terminal.integrated.fontFamily": "JetBrainsMono NFM",
+  "chat.editor.fontFamily": "JetBrainsMono NFM",
+  "debug.console.fontFamily": "JetBrainsMono NFM",
+  "notebook.output.fontFamily": "JetBrainsMono NFM",
+  "markdown.preview.fontFamily": "JetBrainsMono NFM",
+  "editor.inlayHints.fontFamily": "JetBrainsMono NFM",
 
   // APC
   "apc.activityBar": {
@@ -36,7 +37,7 @@
     "hideSettings": true,
     "size": 28
   },
-  "apc.font.family": "jetBrains Mono",
+  "apc.font.family": "JetBrainsMono NFM",
   "apc.statusBar": {
     "position": "editor-bottom",
     "height": 28,
@@ -46,9 +47,9 @@
   "breadcrumbs.filePath": "off",
   "editor.fontLigatures": true,
   "workbench.startupEditor": "none",
-  "workbench.editor.wrapTabs": true,
+  "workbench.editor.wrapTabs": false,
   "editor.guides.bracketPairs": true,
-  "workbench.editor.enablePreview": false,
+  "workbench.editor.enablePreview": true,
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairsHorizontal": false,
 
@@ -62,11 +63,12 @@
   "git.openRepositoryInParentFolders": "never",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "security.workspace.trust.untrustedFiles": "open",
-  "[csharp]": {
-    "editor.defaultFormatter": "csharpier.csharpier-vscode"
-  },
   "editor.formatOnSave": true,
   "editor.stickyScroll.enabled": false,
-  "breadcrumbs.enabled": false
+  "breadcrumbs.enabled": false,
+  "security.allowedUNCHosts": ["wsl.localhost"],
+  "git.ignoreMissingGitWarning": true,
+  "workbench.colorTheme": "Dracula Theme"
 }
+
 ```
